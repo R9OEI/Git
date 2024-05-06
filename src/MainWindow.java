@@ -16,6 +16,7 @@ public class MainWindow extends JFrame {
         super.setLayout(null);
         super.setResizable(false);
         super.setLocationRelativeTo(null);
+        super.setForeground(Color.BLACK);
         this.sasha = sasha;
 //        int posX = 0;
 //        int posY = 0;
@@ -40,7 +41,7 @@ public class MainWindow extends JFrame {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            int randomX = (int) ((Math.random() * 10) + 2);
+            int randomX = (int) ((Math.random() * 5) + 2);
 
             System.out.println(randomX);
 //            posX = - 50;
